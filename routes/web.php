@@ -1,10 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DiamondController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+Route::get('/', [DiamondController::class, 'index']);
+Route::Post('/', [DiamondController::class, 'import']);
+Route::get('/display', [DiamondController::class, 'show']);
+
+
+
+
 
 Auth::routes();
 

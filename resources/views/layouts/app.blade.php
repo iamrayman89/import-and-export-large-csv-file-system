@@ -41,7 +41,7 @@
                                 </li>
                         
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Diplay') }}</a>
+                                    <a class="nav-link" href="{{ url('/display')  }}">{{ __('Diplay') }}</a>
                                 </li>
                            
                             <li class="nav-item dropdown">
