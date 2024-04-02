@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 
 @section('content')
@@ -18,7 +17,7 @@
                             <div class="col-md-6">
                                 <input type="file" class="form-control @error('email') is-invalid @enderror" name="mycsv" id="mycsv" required  autofocus>
 
-                                @error('csvFile')
+                                @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>

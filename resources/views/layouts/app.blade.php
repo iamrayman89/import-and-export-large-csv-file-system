@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                {{ __('UBX') }}
+                {{ __('UBX TASK') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@
                                 </li>
                         
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('/display')  }}">{{ __('Diplay') }}</a>
+                                    <a class="nav-link" href="{{ url('/view')  }}">{{ __('Diplay') }}</a>
                                 </li>
                            
                             <li class="nav-item dropdown">
